@@ -61,15 +61,19 @@ export const DETAILS = {
       name: "JavaScript",
     },
     {
-      image: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Node.js_logo.svg/590px-Node.js_logo.svg.png?20170401104355",
+      image: "assets/images/npm_logo.svg",
+      name: "npm",
+    },
+    {
+      image: "assets/images/node.svg",
       name: "Node.js",
     },
     {
-      image: "https://w7.pngwing.com/pngs/925/447/png-transparent-express-js-node-js-javascript-mongodb-node-js-text-trademark-logo.png",
+      image: "assets/images/express.svg",
       name: "Express",
     },
     {
-      image: "https://www.clipartmax.com/png/middle/275-2754492_mongodb-nosql-document-oriented-database-portable-network-mongodb-logo.png",
+      image: "assets/images/mongo.svg",
       name: "MongoDB",
     },
     {
@@ -77,7 +81,7 @@ export const DETAILS = {
       name: "React",
     },
     {
-      image: "",
+      image: "assets/images/Redux.svg",
       name: "Redux",
     },
     {

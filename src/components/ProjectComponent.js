@@ -21,7 +21,7 @@ class Projects extends Component {
               src={project.image}
               alt={project.title}
               width="22%"
-              height="75%"
+              height="100%"
               style={{ margin: "auto" }}
             />
           </div>
@@ -30,10 +30,13 @@ class Projects extends Component {
             <p className="text-justify">{project.description.para1}</p>
             <p className="text-justify">{project.description.para2}</p>
             <button
-              className="view-projects view-projects--specs"
+              className="view-projects--specs"
               onClick={() => this.onProjectClicked(project.id)}
             >
               View Project
+            </button>
+            <button className="view-projects--code" onclick={() => this.onProjectClicked(project.id)}>
+              <img height="20px" src="assets/images/github.svg" alt="Github" />
             </button>
           </div>
         </div>

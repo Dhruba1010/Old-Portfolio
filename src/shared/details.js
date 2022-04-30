@@ -23,7 +23,7 @@ export const DETAILS = {
     para3:
       "I am a skilled Website Developer. I have completed many mini apps and cloned 2 websites using HTML, CSS and JavaScript. I have the potential of converting ideas into working products. I am also highly skilled in Node.js, MongoDB, Express, React.",
     para4:
-      "I also love gameing, listening rock musics, playing chess and watching sports",
+      "I also love gaming, listening rock musics, playing chess and watching sports",
   },
   education: {
     college: {
@@ -92,40 +92,30 @@ export const DETAILS = {
   projects: [
     {
       id: 1,
-      title: "Be Fit - Your Fitness Partner",
-      link: "https://play.google.com/store/apps/details?id=com.programmersgateway.sm1999.befit",
+      title: "Headphone Zone Clone",
+      link: "https://unit-2-project.vercel.app",
+      code_link: "https://github.com/Dhruba1010/Unit-2_Project",
       image:
-        "https://play-lh.googleusercontent.com/YW4d2Z8jZhNE4C6gNFR5kFeV3h8brRp9QAfqgsrxF00TdELiwxRWmyrdEkE7fKhur58=s180-rw",
+        "assets/images/Headphone_Zones.svg",
       description: {
         para1:
-          "The application provides exercises, food and fitness tips for maintaining the health properly.",
+          "Just a basic cloned website of Headphone Zone",
         para2:
-          "The application is made completely user-friendly and has an amazing user-experience and has a dark mode in its very first version itself!",
+          "This website is made with simple HTML, CSS as our Unit-2 construct week project. It has only 3 pages Home, SignUp, and login.",
       },
     },
     {
       id: 2,
-      title: "Sketch Tab - Your Art Playground",
-      link: "https://play.google.com/store/apps/details?id=com.programmersgateway.sm1999.sketchtab",
+      title: "Stylecraze clone",
+      link: "https://stylecraze-backend-clone.netlify.app",
+      code_link: "https://github.com/Prashant-Bhatiya/Stylecraze.backend.io",
       image:
-        "https://play-lh.googleusercontent.com/arjwweu2ecu2V3OWozZUYYm67xWir-8njlyBtmayu33nhmZTFuBZ_E5ZkJe2-loNhg=s180-rw",
+        "assets/images/Style_Craze.svg",
       description: {
         para1:
-          "Kick off the artist in you and get your hands to work on something cool. Play with the tools in the art gallery and enjoy drawing. It is completely offline.",
+          "That is a cloned Website of Stylecraze",
         para2:
-          "The app is completely user-friendly and has a good user interface.",
-      },
-    },
-    {
-      id: 3,
-      title: "Covid-19 Sahayak",
-      link: "https://drive.google.com/file/d/189Xq2Gb28e5wd8Mja5F4-znbFo06U7K3/view",
-      image:
-        "https://raw.githubusercontent.com/smv1999/smv1999.github.io/master/coronavirus.png",
-      description: {
-        para1: "Provides live updates state-wise and at the world-level",
-        para2:
-          "Funds and helpline, Essentials and Maps are some unique features. The app has an Amazing UI/UX and comes with Dark mode in its very first version!",
+          "For this website we used HTML, CSS, JavaScript, for backend database we used MongoDB and for the deployment we used Heroku. We build this in two parts. During Unit-3 construct week we worked in the frontend part this page, and during Unit-4 construct week we worked on the backend part. We build this webpage responsive with Media Query and also add authentication and authorization for login and signup.",
       },
     },
   ],

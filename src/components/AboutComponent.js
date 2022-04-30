@@ -39,6 +39,7 @@ class About extends Component {
               <p>{this.props.details.about_me.para2}</p>
               <p>{this.props.details.about_me.para3}</p>
               <p>{this.props.details.about_me.para4}</p>
+              <button className="Resume">Resume</button>
             </motion.div>
           </div>
         </div>

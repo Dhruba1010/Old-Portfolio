@@ -6,8 +6,10 @@ class Skills extends Component {
     const skills = this.props.details.skills.map((skill) => {
       return (
         <div className="col-12 col-md-4 skill-tile text-center">
-          <img src={skill.image} alt="Skill" width="50%" height="40%" />
-          <p>{skill.name}</p>
+          <a href={skill.link} target="_blank" rel="noreferrer">
+            <img src={skill.image} alt="Skill" width="50%" height="40%" />
+            <p>{skill.name}</p>
+          </a>
         </div>
       );
     });

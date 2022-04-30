@@ -37,3 +37,14 @@ section {
   cursor: pointer;
   transform: scale(1.05);
 }
+
+@media screen and (max-width: 390px) {
+  .profile_pic {
+    justify-content: center;
+    align-items: center;
+    margin-left: 9%;
+  }
+  .Resume{
+    margin-left:40%;
+  }
+}

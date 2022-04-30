@@ -13,7 +13,7 @@ class About extends Component {
       <section id="about">
         <div className="container">
           <div className="row">
-            <div className="col-12 col-sm-6" style={{ padding: "20px" }}>
+            <div className="profile_pic" style={{ padding: "20px" }}>
               <motion.img
                 initial={{ x: "-100vw" }}
                 animate={{ x: 0 }}
@@ -40,7 +40,7 @@ class About extends Component {
               <p>{this.props.details.about_me.para3}</p>
               <p>{this.props.details.about_me.para4}</p>
               {/* <button className="Resume" onClick={()=> {<a href="https://drive.google.com/file/d/1H7Unkd62LhKeH0s_o3YXtcJce4_A32yV/view?usp=sharing" />}}>Resume</button> */}
-              <a className="Resume" href="https://drive.google.com/file/d/1H7Unkd62LhKeH0s_o3YXtcJce4_A32yV/view?usp=sharing" target="_blank">Resume</a>
+              <a className="Resume" href="https://drive.google.com/file/d/1H7Unkd62LhKeH0s_o3YXtcJce4_A32yV/view?usp=sharing" target="_blank" rel="noreferrer">Resume</a>
             </motion.div>
           </div>
         </div>

@@ -29,6 +29,7 @@ class Main extends Component {
     this.educationRef = createRef();
     this.skillsRef = createRef();
     this.projectsRef = createRef();
+    this.contactRef = createRef();
   }
 
   toggleMenu() {
@@ -39,6 +40,7 @@ class Main extends Component {
   scrollToEducation = () => this.educationRef.current.scrollIntoView();
   scrollToSkills = () => this.skillsRef.current.scrollIntoView();
   scrollToProjects = () => this.projectsRef.current.scrollIntoView();
+  scrollToContact = () => this.contactRef.current.scrollIntoView();
 
   render() {
     return (
@@ -87,6 +89,15 @@ class Main extends Component {
                   onClick={this.scrollToProjects}
                 >
                   Projects
+                </NavLink>
+              </NavItem>
+              <NavItem>
+                <NavLink
+                  style={{ color: "white" }}
+                  href="#"
+                  onClick={this.scrollToContact}
+                >
+                  Contact Me
                 </NavLink>
               </NavItem>
             </Nav>
@@ -142,7 +153,10 @@ class Main extends Component {
         <div ref={this.projectsRef}>
           <Projects details={this.state.details} />
         </div>
-        <Follow details={this.state.details} />
+        <div ref={this.contactRef}>
+          <Follow details={this.state.details} />
+        </div>
+        {/* <Follow details={this.state.details} /> */}
         <Footer details={this.state.details} />
       </div>
     );

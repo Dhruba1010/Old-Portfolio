@@ -9,7 +9,7 @@ class Footer extends Component {
           Credit goes to {" "}
           <a
             className="text-color"
-            href={this.props.details.profile_links.github.link}
+            href={this.props.details.profile_links.creater_github.link}
           >
             Vaidhyanathan S M
           </a>

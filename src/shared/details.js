@@ -14,6 +14,9 @@ export const DETAILS = {
       link: "dhrubasingha096p@gmail.com",
       image: "assets/images/gmail.svg",
     },
+    creater_github: {
+      link: "https://github.com/smv1999"
+    }
   },
   profile_image: "assets/images/profile_image.jpg",
   about_me: {
@@ -52,42 +55,52 @@ export const DETAILS = {
     {
       image: "assets/images/html5.svg",
       name: "HTML",
+      link: "https://developer.mozilla.org/en-US/docs/Web/HTML",
     },
     {
       image: "assets/images/css3.svg",
       name: "CSS",
+      link: "https://developer.mozilla.org/en-US/docs/Web/CSS",
     },
     {
       image: "assets/images/javascript.svg",
       name: "JavaScript",
+      link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
     },
     {
       image: "assets/images/npm_logo.svg",
       name: "npm",
+      link: "https://www.npmjs.com",
     },
     {
       image: "assets/images/node.svg",
       name: "Node.js",
+      link: "https://nodejs.org/en/",
     },
     {
       image: "assets/images/express.svg",
       name: "Express",
+      link: "https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/Introduction",
     },
     {
       image: "assets/images/mongo.svg",
       name: "MongoDB",
+      link: "https://www.mongodb.com",
     },
     {
       image: "assets/images/react.svg",
       name: "React",
+      link: "https://reactjs.org",
     },
     {
       image: "assets/images/Redux.svg",
       name: "Redux",
+      link: "https://redux.js.org",
     },
     {
       image: "assets/images/git.svg",
       name: "Git",
+      link: "https://git-scm.com",
     },
   ],
   projects: [
@@ -103,6 +116,18 @@ export const DETAILS = {
           "Just a basic cloned website of Headphone Zone",
         para2:
           "This website is made with simple HTML, CSS as our Unit-2 construct week project. It has only 3 pages Home, SignUp, and login.",
+        tech_stacks: [
+          {
+            image: "assets/images/html5.svg",
+            name: "HTML",
+            link: "https://developer.mozilla.org/en-US/docs/Web/HTML",
+          },
+          {
+            image: "assets/images/css3.svg",
+            name: "CSS",
+            link: "https://developer.mozilla.org/en-US/docs/Web/CSS",
+          },
+        ]
       },
     },
     {
@@ -117,7 +142,47 @@ export const DETAILS = {
           "That is a cloned Website of Stylecraze",
         para2:
           "For this website we used HTML, CSS, JavaScript, for backend database we used MongoDB and for the deployment we used Heroku. We build this in two parts. During Unit-3 construct week we worked in the frontend part this page, and during Unit-4 construct week we worked on the backend part. We build this webpage responsive with Media Query and also add authentication and authorization for login and signup.",
+        tech_stacks: [
+          {
+            image: "assets/images/html5.svg",
+            name: "HTML",
+            link: "https://developer.mozilla.org/en-US/docs/Web/HTML",
+          },
+          {
+            image: "assets/images/css3.svg",
+            name: "CSS",
+            link: "https://developer.mozilla.org/en-US/docs/Web/CSS",
+          },
+          {
+            image: "assets/images/javascript.svg",
+            name: "JavaScript",
+            link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+          },
+          {
+            image: "assets/images/npm_logo.svg",
+            name: "npm",
+            link: "https://www.npmjs.com",
+          },
+          {
+            image: "assets/images/node.svg",
+            name: "Node.js",
+            link: "https://nodejs.org/en/",
+          },
+          {
+            image: "assets/images/express.svg",
+            name: "Express",
+            link: "https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/Introduction",
+          },
+          {
+            image: "assets/images/mongo.svg",
+            name: "MongoDB",
+            link: "https://www.mongodb.com",
+          },
+        ]
       },
     },
   ],
+  contact: {
+
+  }
 };

@@ -29,19 +29,27 @@ class Projects extends Component {
             <h4>{project.title}</h4>
             <p className="text-justify">{project.description.para1}</p>
             <p className="text-justify">{project.description.para2}</p>
+            <b classname="headline">Tech Stacks :-</b>
+            <div className="tech-stacks">
+              
+              {project.description.tech_stacks.map(t => {
+                return (
+                  <div className="each-tech">
+                    <a href={t.link} target="_blank" rel="noreferrer">
+                      <img height="40px" src={t.image} alt={t.name}/>
+                      <p>{t.name}</p>
+                    </a>
+                  </div>
+                )
+              })}
+            </div>
             <button
               className="view-projects--specs"
               onClick={() => this.onProjectClicked(project.id)}
             >
               View Project
             </button>
-            {/* <button className="view-projects--code">
-              <img height="20px" src="assets/images/github.svg" alt="Github" />
-            </button> */}
-            
-              <a className="view-projects--code" href={project.code_link} target="_blank"><img height="30px" marginTop="0px" src="assets/images/github.svg" alt="Github" /></a>
-            
-            
+            <a className="view-projects--code" href={project.code_link} target="_blank" rel="noreferrer"><img height="30px" marginTop="0px" src="assets/images/github.svg" alt="Github" /></a>
           </div>
         </div>
       );

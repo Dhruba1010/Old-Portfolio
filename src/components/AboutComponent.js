@@ -39,7 +39,8 @@ class About extends Component {
               <p>{this.props.details.about_me.para2}</p>
               <p>{this.props.details.about_me.para3}</p>
               <p>{this.props.details.about_me.para4}</p>
-              <button className="Resume">Resume</button>
+              {/* <button className="Resume" onClick={()=> {<a href="https://drive.google.com/file/d/1H7Unkd62LhKeH0s_o3YXtcJce4_A32yV/view?usp=sharing" />}}>Resume</button> */}
+              <a className="Resume" href="https://drive.google.com/file/d/1H7Unkd62LhKeH0s_o3YXtcJce4_A32yV/view?usp=sharing" target="_blank">Resume</a>
             </motion.div>
           </div>
         </div>

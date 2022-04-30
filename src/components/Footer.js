@@ -6,7 +6,7 @@ class Footer extends Component {
     return (
       <div className="footer text-center">
         <p className="text-color">
-          Developed with ❤️ by{" "}
+          Credit goes to {" "}
           <a
             className="text-color"
             href={this.props.details.profile_links.github.link}

@@ -24,6 +24,7 @@ export const DETAILS = {
       "I am a skilled Website Developer. I have completed many mini apps and cloned 2 websites using HTML, CSS and JavaScript. I have the potential of converting ideas into working products. I am also highly skilled in Node.js, MongoDB, Express, React.",
     para4:
       "I also love gaming, listening rock musics, playing chess and watching sports",
+    Resume: "https://drive.google.com/file/d/1H7Unkd62LhKeH0s_o3YXtcJce4_A32yV/view?usp=sharing",
   },
   education: {
     college: {

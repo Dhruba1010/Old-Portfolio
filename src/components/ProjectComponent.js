@@ -20,8 +20,8 @@ class Projects extends Component {
             <img
               src={project.image}
               alt={project.title}
-              width="22%"
-              height="100%"
+              width="300px"
+              height="200px"
               style={{ margin: "auto" }}
             />
           </div>
@@ -35,9 +35,13 @@ class Projects extends Component {
             >
               View Project
             </button>
-            <button className="view-projects--code" onclick={() => this.onProjectClicked(project.id)}>
+            {/* <button className="view-projects--code">
               <img height="20px" src="assets/images/github.svg" alt="Github" />
-            </button>
+            </button> */}
+            
+              <a className="view-projects--code" href={project.code_link} target="_blank"><img height="30px" marginTop="0px" src="assets/images/github.svg" alt="Github" /></a>
+            
+            
           </div>
         </div>
       );

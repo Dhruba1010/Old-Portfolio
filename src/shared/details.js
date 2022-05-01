@@ -132,6 +132,37 @@ export const DETAILS = {
     },
     {
       id: 2,
+      title: "Mini Movie App",
+      link: "https://mini-movie-app.vercel.app",
+      code_link: "https://github.com/Dhruba1010/mini-movie-app",
+      image:
+        "assets/images/Mini_Movie_App.svg",
+      description: {
+        para1:
+          "Mini movie app for searching movies",
+        para2:
+          "This website is made with HTML, CSS, and JavaScript. I build this website during Unit-3. I fetch the data from omdb api and show it to the DOM.", 
+        tech_stacks: [
+          {
+            image: "assets/images/html5.svg",
+            name: "HTML",
+            link: "https://developer.mozilla.org/en-US/docs/Web/HTML",
+          },
+          {
+            image: "assets/images/css3.svg",
+            name: "CSS",
+            link: "https://developer.mozilla.org/en-US/docs/Web/CSS",
+          },
+          {
+            image: "assets/images/javascript.svg",
+            name: "JavaScript",
+            link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+          },
+        ]
+      },
+    },
+    {
+      id: 3,
       title: "Stylecraze clone",
       link: "https://stylecraze-backend-clone.netlify.app",
       code_link: "https://github.com/Prashant-Bhatiya/Stylecraze.backend.io",

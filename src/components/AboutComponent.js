@@ -13,7 +13,7 @@ class About extends Component {
       <section id="about">
         <div className="container">
           <div className="row">
-            <div className="profile_pic" style={{ padding: "20px" }}>
+            <div className="col-12 col-sm-6" style={{ padding: "20px" }}>
               <motion.img
                 initial={{ x: "-100vw" }}
                 animate={{ x: 0 }}

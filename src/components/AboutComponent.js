@@ -12,9 +12,9 @@ class About extends Component {
     return (
       <section id="about">
         <div className="container">
-          <div className="row">
-            <div className="col-12 col-sm-6" style={{ padding: "20px" }}>
-              <motion.img
+          <div className="a_row">
+            <div className="profile_pic" style={{ padding: "20px" }}>
+              <motion.img classname="pro_img"
                 initial={{ x: "-100vw" }}
                 animate={{ x: 0 }}
                 transition={{ delay: 0.5, type: "spring", stiffness: 40 }}
@@ -33,7 +33,7 @@ class About extends Component {
               animate={{ x: 0 }}
               transition={{ type: "spring", delay: 0.8, stiffness: 40 }}
             >
-              <h2>About</h2>
+              <h2 className="about">About</h2>
               <br />
               <h5>{this.props.details.about_me.para1}</h5>
               <p>{this.props.details.about_me.para2}</p>

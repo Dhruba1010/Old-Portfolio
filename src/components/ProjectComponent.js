@@ -20,8 +20,8 @@ class Projects extends Component {
             <img
               src={project.image}
               alt={project.title}
-              width="300px"
-              height="200px"
+              width="500px"
+              height="300px"
               style={{ margin: "auto" }}
             />
           </div>

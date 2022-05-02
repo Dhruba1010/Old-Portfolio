@@ -17,7 +17,7 @@ class Projects extends Component {
       return (
         <div key={project.id} className="row" style={{ marginTop: "30px" }}>
           <div className="col-12 col-sm-6" style={{ textAlign: "center" }}>
-            <img
+            <img className="project_img"
               src={project.image}
               alt={project.title}
               width="500px"

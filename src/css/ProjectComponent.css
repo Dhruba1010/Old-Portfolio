@@ -70,4 +70,7 @@ section {
   .view-projects--specs {
     margin-left: 30%;
   }
+  .project_img {
+    width: 90%;
+  }
 }

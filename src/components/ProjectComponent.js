@@ -29,7 +29,7 @@ class Projects extends Component {
             <h4>{project.title}</h4>
             <p className="text-justify">{project.description.para1}</p>
             <p className="text-justify">{project.description.para2}</p>
-            <b classname="headline">Tech Stacks :-</b>
+            <b classname="headline">Tech Stack :-</b>
             <div className="tech-stacks">
               
               {project.description.tech_stacks.map(t => {
